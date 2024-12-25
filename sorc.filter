@@ -539,56 +539,66 @@ Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One 
 
 Show
 BaseType "Gelid Staff"
-Class Staves
+Class "Staves"
 SetBackgroundColor 0 255 0 125
 SetBorderColor 255 0 0 125
 SetTextColor 255 0 0 125 
 SetFontSize 25
 PlayAlertSound 11 300
+PlayEffect Pink Temp
 MinimapIcon 1 Green Pentagon
 
 
 # Advanced Energy Shield  Gloves
 Show
 BaseType "Advanced Stitched Gloves" "Advanced Jewelled Gloves" "Advanced Intricate Gloves"
-Class Gloves
+Class "Gloves"
+Sockets >= 0
 SetBackgroundColor 0 255 0 125
 SetBorderColor 255 0 0 125
-SetTextColor 255 0 0 125 
+SetTextColor 255 0 0
 SetFontSize 25
 PlayAlertSound 11 300
+PlayEffect Pink Temp
 MinimapIcon 1 Green Cross
 
 # Advanced Energy Shield Boots
 Show
 BaseType "Advanced Lattice Sandals" "Advanced Silk Slippers" "Advanced Feathered Sandals"
+Class "Boots"
+Sockets >= 0
 SetBackgroundColor 0 255 0 125
 SetBorderColor 255 0 0 125
-SetTextColor 255 0 0 125 
+SetTextColor 255 0 0
 SetFontSize 25
 PlayAlertSound 11 300
+PlayEffect Pink Temp
 MinimapIcon 1 Green Pentagon
 
 # Advanced Energy Shield Body Armours 
 Show
 BaseType "Advanced Silk Robe" "Advanced Keth Raiment" "Advanced Votive Raiment" "Advanced Altar Robe"
-Class Body Armours
+Class "Body Armours"
+Sockets >= 0
 SetBackgroundColor 0 255 0 125
 SetBorderColor 255 0 0 125
-SetTextColor 255 0 0 125 
+SetTextColor 255 0 0
 SetFontSize 25
 PlayAlertSound 11 300
+PlayEffect Pink Temp
 MinimapIcon 1 Green Pentagon
 
 # Advanced Energy Shield Helmets
 Show
 BaseType "Advanced Beaded Circlet" "Advanced Chain Tiara" "Advanced Feathered Tiara"
-Class Helmets
+Class "Helmets"
+Sockets >= 0
 SetBackgroundColor 0 255 0 125
 SetBorderColor 255 0 0 125
-SetTextColor 255 0 0 125 
+SetTextColor 255 0 0
 SetFontSize 25
 PlayAlertSound 11 300
+PlayEffect Pink Temp
 MinimapIcon 1 Green Pentagon
 
 
